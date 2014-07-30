@@ -1,0 +1,23 @@
+/* Custom CSS overrides */
+
+/* Customize the left side-bar menu */
+
+ul li, ul li.leaf {
+    list-style-type: none;
+}
+
+ul li.expanded, ul li.collapsed{
+    list-style-image: none;
+    list-style-type: none;
+}
+
+ul.menu li {
+    padding: 5px 0;
+}
+
+
+/* Hide page-title in "Basic Page" content type with custom class page--page.tpl.php */
+
+.basic-page-type h1.page-title {
+	display: none;
+}
